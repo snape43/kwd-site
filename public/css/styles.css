@@ -2287,15 +2287,21 @@ html {
     margin-top: 50px;
     width: 150px; }
 
-.servicesKapi .services-list {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .servicesKapi .services-list .collection {
-    width: 400px;
-    border: 1px solid #fff !important; }
-    .servicesKapi .services-list .collection .collection-item {
-      border-bottom: 1px solid #fff !important; }
+.servicesKapi .services {
+  width: 100%; }
+  .servicesKapi .services .services-list {
+    width: 60%; }
+    .servicesKapi .services .services-list .collection {
+      width: 400px;
+      border: 1px solid #fff !important; }
+      .servicesKapi .services .services-list .collection .collection-item {
+        border-bottom: 1px solid #fff !important; }
+        .servicesKapi .services .services-list .collection .collection-item i {
+          font-size: 40px; }
+        .servicesKapi .services .services-list .collection .collection-item div {
+          display: inline !important; }
+  .servicesKapi .services .img-services {
+    width: 40%; }
 
 @media (max-width: 600px) {
   .headerKapi {

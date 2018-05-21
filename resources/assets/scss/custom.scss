@@ -47,19 +47,30 @@ html{
 }
 
 .servicesKapi{
+  .services{
+    width: 100%;
   .services-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    width: 60%;
     .collection {
       width: 400px;
       border: 1px solid #fff !important;
       .collection-item{
         border-bottom:1px solid #fff!important;
+
+        i{
+          font-size: 40px;
+        }
+        div{
+          display: inline!important;
+        }
       }
     }
   }
+
+  .img-services{
+    width: 40%;
+  }
+}
 }
 
 @media (max-width:600px) {
