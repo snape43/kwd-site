@@ -1,0 +1,85 @@
+/*
+Error: Undefined variable: "$small-and-down".
+        on line 69 of scss/custom.scss
+
+64:       }
+65:     }
+66:   }
+67: }
+68: 
+69: @media #{$small-and-down} {
+70:   .headerKapi {
+71:     padding: 200px;
+72:     h1{
+73: 
+74:       font-size: 24px;
+
+Backtrace:
+scss/custom.scss:69
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/script/tree/node.rb:58:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/script/tree/interpolation.rb:170:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/script/tree/node.rb:58:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:543:in `run_interp_no_strip'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:541:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:541:in `run_interp_no_strip'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:548:in `run_interp'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:513:in `visit_media'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:171:in `visit_children'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:161:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:10:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/engine.rb:301:in `render_with_sourcemap'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin/compiler.rb:331:in `watch'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `call'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `initialize_adapter'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `start_poller'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `new'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `start_poller'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:101:in `start'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:109:in `start!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:66:in `start!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin/compiler.rb:408:in `listen_to'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin/compiler.rb:341:in `watch'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin.rb:109:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/plugin.rb:109:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/exec/base.rb:52:in `parse'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/../lib/sass/exec/base.rb:19:in `parse!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.4.25/bin/sass:13
+/usr/bin/sass:19:in `load'
+/usr/bin/sass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$small-and-down\".\A         on line 69 of scss/custom.scss\A \A 64:       }\A 65:     }\A 66:   }\A 67: }\A 68: \A 69: @media #{$small-and-down} {\A 70:   .headerKapi {\A 71:     padding: 200px;\A 72:     h1{\A 73: \A 74:       font-size: 24px;"; }

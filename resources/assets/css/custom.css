@@ -1,0 +1,43 @@
+/*Kapi default colors*/
+@font-face {
+  font-family: Ubuntu, sans-serif;
+  src: url("https://fonts.google.com/specimen/Ubuntu"); }
+body {
+  margin: 0 !important; }
+
+html {
+  font-family: 'Ubuntu', sans-serif; }
+
+.kapiNav {
+  background: linear-gradient(to left, #cc0000 0%, #800000 100%) !important; }
+  .kapiNav ul a {
+    color: lightgray !important; }
+
+.headerKapi {
+  background-color: black;
+  color: #fff !important;
+  padding: 250px; }
+  .headerKapi h1 {
+    font-weight: lighter;
+    font-size: 40px; }
+  .headerKapi span {
+    font-size: 12px; }
+  .headerKapi button {
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    color: #fff;
+    padding: 12px;
+    border-radius: 3px;
+    margin-top: 50px;
+    width: 150px; }
+
+.servicesKapi .services-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around; }
+  .servicesKapi .services-list .collection {
+    width: 400px;
+    border: 1px solid #fff !important; }
+
+/*# sourceMappingURL=custom.css.map */
