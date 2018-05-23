@@ -1,8 +1,11 @@
 @extends('layouts.main')
 
 @section('content')
-   @include('pages.services')
-   @include('pages.banner')
+    <div class="container">
+        @include('pages.services')
+        @include('pages.banner')
+        @include('pages.team')
+    </div>
 @stop
 
 @section('tab-title')

@@ -1,5 +1,4 @@
-@section('content')
-    <div class="banner">
+ <div class="banner">
         <div class="content">
             <div class="sign">
                 <span>"</span>
@@ -13,5 +12,4 @@
             </div>
 
         </div>
-    </div>
-@stop
+ </div>
