@@ -2,6 +2,7 @@
 
 @section('content')
    @include('pages.services')
+   @include('pages.banner')
 @stop
 
 @section('tab-title')
