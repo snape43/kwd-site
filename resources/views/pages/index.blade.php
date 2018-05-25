@@ -1,11 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container">
         @include('pages.services')
         @include('pages.banner')
         @include('pages.team')
-    </div>
 @stop
 
 @section('tab-title')
@@ -14,4 +12,14 @@
 
 @section('title')
 
+@stop
+
+
+@section('scripts')
+    $('#start').click(function() {
+    event.preventDefault();
+    $('.headerKapi').animate({
+    scrollDown: "+=200px"
+    }, "slow");
+    });
 @stop
