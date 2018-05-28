@@ -48,24 +48,30 @@ html{
       display: flex;
       align-content: center;
       justify-content: center;
-      .services-list{
-        .collection {
+      .services-list {
+        .row {
           border: 1px solid #fff !important;
           .collection-item {
             border-bottom: 1px solid #fff !important;
-
-            i {
-              font-size: 40px;
+            display: inline;
+            width: 100%;
+            .icon-service{
+              width: 8%;
+              i {
+                font-size: 45px;
+                vertical-align: 8px;
+              }
+              + div{
+                margin-left: 25px;
+                width: 85%;
+              }
             }
             div {
-              display: inline !important;
+              display: inline-block !important;
+              margin-bottom: 20px;
             }
           }
         }
-      }
-      .img-services img{
-        position: relative;
-        top: 20px;
       }
     }
   }
@@ -139,21 +145,29 @@ html{
   }
 }
 
-.footer {
-  background-color: black;
+.page-footer{
+  background-color:black;
   color: #fff;
   font-weight: bold;
-  font-size: 20px;
   text-align: center;
-  height: 140px;
-  .footer-text{
-    position: relative;
-    top:30px;
+  ul .first{
+   border: none;
   }
+  ul li{
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
 
+      a{
+      color: #fff!important;
+    }
+  }
 }
 
-/*Media for header*/
+
+
+/*Media -- header*/
 @media (max-width:600px) {
   .headerKapi {
     padding: 100px;
@@ -169,3 +183,41 @@ html{
   }
 }
 
+/*Media -- services*/
+@media (max-width: 600px){
+  .services{
+    .services-list{
+      .row{
+        .collection-item{
+          div {
+            font-size: 11px !important;
+          }
+            .icon-service {
+              width: 180px!important;
+              text-align: center;
+              i {
+                font-size: 25px !important;
+              }
+            }
+            .icon-service + div{
+              margin-left: 0!important;
+              overflow-wrap: break-word;
+            }
+        }
+      }
+    }
+    .img-services{
+      text-align:center;
+    }
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1245px) {
+  .icon-service{
+    width: 6%;
+    + div{
+      margin-left: 30px!important;
+      width: 80% !important;
+    }
+  }
+}

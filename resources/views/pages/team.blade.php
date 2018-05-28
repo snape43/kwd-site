@@ -8,7 +8,7 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="/images/bannerIndex.jpg">
+                        <img src="/images/ale.jpeg">
                     </div>
 
                     <div class="card-content">

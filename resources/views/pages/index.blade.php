@@ -16,10 +16,12 @@
 
 
 @section('scripts')
+    <script type="text/javascript">
     $('#start').click(function() {
     event.preventDefault();
     $('.headerKapi').animate({
     scrollDown: "+=200px"
     }, "slow");
     });
+    </script>
 @stop

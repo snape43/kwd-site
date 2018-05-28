@@ -2866,17 +2866,23 @@ html {
     display: flex;
     align-content: center;
     justify-content: center; }
-    .servicesKapi .services .services-list .collection {
+    .servicesKapi .services .services-list .row {
       border: 1px solid #fff !important; }
-      .servicesKapi .services .services-list .collection .collection-item {
-        border-bottom: 1px solid #fff !important; }
-        .servicesKapi .services .services-list .collection .collection-item i {
-          font-size: 40px; }
-        .servicesKapi .services .services-list .collection .collection-item div {
-          display: inline !important; }
-    .servicesKapi .services .img-services img {
-      position: relative;
-      top: 20px; }
+      .servicesKapi .services .services-list .row .collection-item {
+        border-bottom: 1px solid #fff !important;
+        display: inline;
+        width: 100%; }
+        .servicesKapi .services .services-list .row .collection-item .icon-service {
+          width: 8%; }
+          .servicesKapi .services .services-list .row .collection-item .icon-service i {
+            font-size: 45px;
+            vertical-align: 8px; }
+          .servicesKapi .services .services-list .row .collection-item .icon-service + div {
+            margin-left: 25px;
+            width: 85%; }
+        .servicesKapi .services .services-list .row .collection-item div {
+          display: inline-block !important;
+          margin-bottom: 20px; }
 
 .banner {
   margin-bottom: 40px;
@@ -2932,18 +2938,22 @@ html {
       .team .row .card .card-content p {
         font-size: 15px; }
 
-.footer {
+.page-footer {
   background-color: black;
   color: #fff;
   font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  height: 140px; }
-  .footer .footer-text {
-    position: relative;
-    top: 30px; }
+  text-align: center; }
+  .page-footer ul .first {
+    border: none; }
+  .page-footer ul li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #fff; }
+    .page-footer ul li a {
+      color: #fff !important; }
 
-/*Media for header*/
+/*Media -- header*/
 @media (max-width: 600px) {
   .headerKapi {
     padding: 100px; }
@@ -2952,5 +2962,25 @@ html {
 @media (min-width: 601px) and (max-width: 768px) {
   .headerKapi {
     padding: 150px; } }
+/*Media -- services*/
+@media (max-width: 600px) {
+  .services .services-list .row .collection-item div {
+    font-size: 11px !important; }
+  .services .services-list .row .collection-item .icon-service {
+    width: 180px !important;
+    text-align: center; }
+    .services .services-list .row .collection-item .icon-service i {
+      font-size: 25px !important; }
+  .services .services-list .row .collection-item .icon-service + div {
+    margin-left: 0 !important;
+    overflow-wrap: break-word; }
+  .services .img-services {
+    text-align: center; } }
+@media (min-width: 991px) and (max-width: 1245px) {
+  .icon-service {
+    width: 6%; }
+    .icon-service + div {
+      margin-left: 30px !important;
+      width: 80% !important; } }
 
 /*# sourceMappingURL=styles.css.map */
